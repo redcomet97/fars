@@ -1,0 +1,18 @@
+Package: far
+Type: Package
+Title: Fatality Analysis Report System Data Processing
+Version: 0.1.0
+Date: 2019-7-7
+Author: Yi Shen
+Maintainer: Yi Shen <redcomet97@outlook.com>
+Description: This package uses data from the US National Highway Traffic Safety Administration's Fatality Analysis
+    Reporting System, which is a nationwide census providing the American public yearly data regarding fatal injuries
+    suffered in motor vehicle traffic crashes. This package is an assignment of Coursera's Building R Packages course.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: readr, dplyr, tidyr, maps, graphics, magrittr
+Suggests: 
+    knitr, rmarkdown, testthat
+VignetteBuilder: knitr
